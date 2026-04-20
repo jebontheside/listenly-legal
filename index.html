@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Listenly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #1a1a1a;
+      --text: #f5efe6;
+      --muted: #a49d8f;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 17px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 64px 24px 96px;
+    }
+    header {
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0 0 8px;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 15px;
+      margin: 0;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin: 40px 0 12px;
+    }
+    p {
+      margin: 0 0 16px;
+    }
+    ul {
+      margin: 0 0 16px;
+      padding-left: 22px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    li::marker {
+      color: var(--muted);
+    }
+    a {
+      color: var(--text);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+    a:hover {
+      opacity: 0.8;
+    }
+    @media (max-width: 480px) {
+      .container {
+        padding: 48px 20px 72px;
+      }
+      h1 {
+        font-size: 30px;
+      }
+      body {
+        font-size: 16px;
+      }
+      h2 {
+        font-size: 19px;
+        margin-top: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Listenly &mdash; Last updated: April 2026</p>
+    </header>
+
+    <p>
+      Listenly is a couples emotional check-in app. This policy explains what data we collect, how we use it, and your rights.
+    </p>
+
+    <h2>What we collect</h2>
+    <ul>
+      <li>Your email address and account credentials</li>
+      <li>Mood check-ins you submit</li>
+      <li>Reactions and acknowledgments between you and your partner</li>
+      <li>Notification preferences and timezone</li>
+    </ul>
+
+    <h2>How we use it</h2>
+    <ul>
+      <li>To deliver your check-ins and reactions to your partner</li>
+      <li>To generate AI-powered connection suggestions. Check-in content is sent to Anthropic&rsquo;s Claude API to generate these suggestions. By using the suggestion feature, you consent to this. You can decline consent during onboarding.</li>
+      <li>To send push notifications</li>
+    </ul>
+
+    <h2>What we don&rsquo;t do</h2>
+    <ul>
+      <li>We don&rsquo;t sell your data</li>
+      <li>We don&rsquo;t use your data for advertising</li>
+      <li>We don&rsquo;t share your data with anyone except Anthropic (for AI suggestions) and Apple (for push notifications)</li>
+    </ul>
+
+    <h2>Data storage</h2>
+    <p>Your data is stored securely via Supabase (us-east-1).</p>
+
+    <h2>Account deletion</h2>
+    <p>You can delete your account and all associated data from within the app under Settings. Deletion is permanent.</p>
+
+    <h2>Contact</h2>
+    <p>Questions? Email us at <a href="mailto:listenlyapp@gmail.com">listenlyapp@gmail.com</a>.</p>
+  </div>
+</body>
+</html>
